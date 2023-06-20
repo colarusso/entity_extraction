@@ -1,2 +1,3 @@
-# entity_extraction
-Entity Extraction with Regex and LLMs
+# Sample Notebook for Extracting Data from OCRed PDFs Using Regex and LLMs
+
+One can use the [notebook provided here](https://github.com/colarusso/entity_extraction/blob/main/PDF%20Entity%20Extraction%20with%20Regex%20and%20LLMs.ipynb) to build a pipeline to parse and extract data from OCRed PDF files. Warining: When using LLMs for entity extraction, be sure to perform extensive quality control. They are very susceptible to distracting language (latching on to text that sound "kind of like" what you're looking for) and missing language (making up content to fill any holes), and importantly, they do NOT provide many hints to when they may be erroring. 
